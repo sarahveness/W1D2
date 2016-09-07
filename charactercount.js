@@ -12,4 +12,5 @@ function countLetters(input) {
 return letterCountSummary;
 }
 
-console.log(countLetters("lighthouse in the house"));
+var letterCounts = countLetters("lighthouse in the house");
+console.log(JSON.stringify(letterCounts,null,2));
