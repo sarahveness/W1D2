@@ -1,3 +1,12 @@
+
+//   P: 2
+//   u: 1
+//   R: 1
+//   L: 1
+//   E: 1
+
+
+
 function countLetters(input) {
   var letterCountSummary = {};
   var listOfCharacters = input.split('');
@@ -9,7 +18,16 @@ function countLetters(input) {
        letterCountSummary[char] += 1;
     }
   });
-  return letterCountSummary;
+  return letterCountSummary;//   var count = 0;
+//   var pos = input.indexOf("p");
+
+//   while (pos !== -1) {
+//     count++;
+//     pos = input.indexOf("p", pos + 1);
+//   }
+//    console.log(count);
+
 }
 
 console.log(countLetters("purple"));
+// countLetters("purple");
